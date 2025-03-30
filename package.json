@@ -8,10 +8,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server":"nodemon server.js"
+    "server": "nodemon server.js"
   },
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
     "cloudinary": "^2.5.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -23,5 +23,9 @@
     "razorpay": "^2.9.6",
     "stripe": "^17.7.0",
     "validator": "^13.12.0"
-  }
+  },
+  "engines": {
+  "node": "20.x"
+}
+  
 }
